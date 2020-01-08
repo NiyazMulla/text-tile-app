@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./Path/Fonts/Poppins-Regular.otf);
+  font-style: normal;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+

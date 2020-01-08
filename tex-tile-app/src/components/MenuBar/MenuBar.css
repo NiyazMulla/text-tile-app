@@ -1,0 +1,143 @@
+.menu_bar_container{
+    margin:0px 0px 0px 0px ;
+    width: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* tempory center after that space between */
+    padding: 20px 0px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999;
+    top: 0%;
+    box-shadow: 1px 2px 5px gray;
+    background-color: white;
+}
+
+.menu_bar_left_content{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu_bar_left_content > a {
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+}
+
+.menu_bar_logo{
+    /*border: 1px solid black;*/
+    /*left: 30%;*/
+    cursor: pointer;
+}
+.menu_bar_right_content{
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu_bar_right_content i{
+    margin: 0px 20px;
+    font-size: 16px;
+    color: gray;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1150px){
+
+    .menu_bar_container{
+        margin:0px 0px 0px 0px ;
+        width: 100%;
+        /*border: 1px solid red;*/
+        padding: 20px 0px;
+        background-color: white;
+    }
+
+    .menu_bar_left_content{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu_bar_left_content > a {
+        text-decoration: none;
+        margin: 0px 15px;
+    }
+
+    .menu_bar_logo{
+        /*border: 1px solid black;*/
+    }
+    .menu_bar_right_content{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu_bar_right_content i{
+        margin: 0px 20px;
+        font-size: 16px;
+    }
+}
+
+
+/*!********************* media screen 900pc to 1150px **********************!*/
+/*@media screen and (min-width: 900px) and (max-width: 1150px){*/
+
+/*}*/
+
+/********************* media screen 768px to 899px **********************/
+@media screen and (min-width: 768px) and (max-width: 899px){
+
+}
+
+/********************* media screen 640px to 767px **********************/
+@media screen and (min-width: 640px) and (max-width: 767px){
+
+}
+
+/********************* media screen 300pc to 640px **********************/
+@media screen and (min-width: 300px) and (max-width: 639px){
+    .menu_bar_container{
+        margin:0px ;
+        width: 100%;
+        /*border: 1px solid red;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; /* tempory center after that space between */
+        padding: 10px 0px;
+        box-sizing: border-box;
+        position: fixed;
+        z-index: 999;
+        top: 0%;
+    }
+
+    .menu_bar_left_content{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu_bar_left_content > a {
+        text-decoration: none;
+        margin: 0px 20px;
+    }
+
+    .menu_bar_logo{
+        /*border: 1px solid black;*/
+        /*left: 30%;*/
+        cursor: pointer;
+    }
+    .menu_bar_right_content{
+        /*border: 1px solid black;*/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu_bar_right_content i{
+        margin: 0px 20px;
+        font-size: 16px;
+        color: gray;
+    }
+}

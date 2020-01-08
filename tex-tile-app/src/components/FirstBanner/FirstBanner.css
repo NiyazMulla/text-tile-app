@@ -1,0 +1,58 @@
+.first_banner_container{
+    margin: 80px 0px 0px 0px;
+    /*border: 1px solid red;*/
+    /* box-sizing: border-box;*/
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*align-items: center;*/
+    width: 100%;
+}
+
+.first_banner_img{
+
+}
+.first_banner_img > a > img{
+    width: 100%;
+}
+.carousel slide {
+
+}
+
+/********************* media screen 900pc to 1150px **********************/
+@media screen and (min-width: 900px) and (max-width: 1150px){
+
+}
+
+/********************* media screen 768px to 899px **********************/
+@media screen and (min-width: 768px) and (max-width: 899px){
+
+}
+
+/********************* media screen 640px to 767px **********************/
+@media screen and (min-width: 640px) and (max-width: 767px){
+
+}
+
+/********************* media screen 300pc to 640px **********************/
+@media screen and (min-width: 300px) and (max-width: 639px){
+    .first_banner_container{
+        margin: 75px 0px 0px 0px;
+        /*border: 1px solid red;*/
+        /* box-sizing: border-box;*/
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /*align-items: center;*/
+        width: 100%;
+    }
+
+    .first_banner_img{
+
+    }
+    .first_banner_img > a > img{
+        width: 100%;
+    }
+}
